@@ -1,38 +1,252 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFF4D3;
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+button {
+    border: none;
+    background-color: #EB2E24;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 5px 15px;
+    margin: 10px 50px;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section--title {
+    font-size: 50px;
+    font-weight: 500;
+    color: #434A9B;
+    margin: 150px 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero--section--title {
+    font-size: 40px;
+    font-weight: 500;
+    margin: -135px 50px 0;
 }
 
-.App-link {
-  color: #61dafb;
+
+.hero--section-description {
+    width: 600px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #EB2E24;
+    margin: 20px 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero--section--img {
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin: -500px 50px 0;
+}
+
+
+
+
+
+h1.project-section-title{
+    margin-top: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project--section--container--box{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.project-section-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff;
+    margin: auto;
+    width: 400px;
+    height: 105vh;
+    border-radius: 30px;
+}
+
+.project--section--inside--box {
+    display: flex;
+    background-color: #807d7d;
+    width: 400px;
+    height: 50vh;
+    border-radius: 30px;
+}
+
+.project--section--heading{
+    background-color: #ffff;
+    color: #35B58E;
+    text-align: center;
+    margin: 3px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.project--img{
+    width: 400px;
+    height: 50vh;
+    border-radius: 30px;
+}
+
+.project--section--description {
+    background-color: #ffff;
+    width: 350px;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.project--section--description-c {
+    background-color: #ffff;
+    width: 350px;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.project--section--links-1{
+    display: inline;
+    text-decoration: none;
+    width: 200px;
+    background-color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 35px auto;
+}
+
+.project--section--links-2{
+    text-decoration: none;
+    width: 200px;
+    background-color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.project--section--links-3{
+    text-decoration: none;
+    width: 200px;
+    background-color: #ffff;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+svg{
+    background-color: #ffffff;
+    margin: 2px 0px -7px 0px;
+}
+
+
+
+
+
+
+h1.skills--heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.skills--content--description--box{
+    display: flex;
+    justify-content: center;
+}
+
+.skills--content--inside--box{
+    width: 300px;
+    height: 50vh;
+    justify-content: space-evenly;
+    background-color: #EEC968;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.skills--heading--title{
+    background-color: #EEC968;
+    color: #CA1D00;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.skills--description--content{
+    background-color: #EEC968;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skills-heading-line {
+    background-color: #30D85B;
+    width: 60px;
+    height: 4px;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+.contact--heading{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input {
+    background-color: #ffff;
+    border: none;
+    width: 400px;
+    padding: 20px;
+    margin: 15px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+textarea {
+    background-color: #ffff;
+    border: none;
+    width: 400px;
+    padding: 20px;
+    margin: 15px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.contact--input--box {
+    margin-top: 100px;
+}
+
+.contact--section--img{
+    width: 500px;
+    float: right;
+    margin: -600px auto;
+}
+
+.contact--section--button{
+    display: flex;
+    margin-left: 130px;
+}
+
+
+
+
+
+.logo {
+    margin: 30px 50px;
 }
