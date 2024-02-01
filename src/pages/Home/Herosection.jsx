@@ -9,7 +9,7 @@ export default function Herosection() {
           Welcome to my digital hub! A dedicated student and tech aficionado on the path to becoming a skilled Data Scientist With a keen interest in Artificial Intelligence and Data Science, I'm committed to pushing the boundaries of what's possible in the realm of technology.
           </p>
         </div>
-        <button className="btn btn-primary">Get In Touch</button>
+        <button type="submit" className="btn btn-primary">Get In Touch</button>
       </div>
       <div className="hero--section--img">
         <img src="./img/images.png" alt="Hero Section" />

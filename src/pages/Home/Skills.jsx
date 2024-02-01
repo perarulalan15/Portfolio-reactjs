@@ -30,10 +30,10 @@ export default function Skills() {
         </div>
         <div className="skills--content--description--box">
           <div className="skills--content--inside--box">
-            <h2 className="skills--heading--title">Data Visualization</h2>
+            <h2 className="skills--heading--title">Domain Knowledge</h2>
             <div className="skills-heading-line"></div>
-            <p className="skills--description--content">PowerBI</p>
-            <p className="skills--description--content">Excel</p>
+            <p className="skills--description--content">Machine Learning</p>
+            <p className="skills--description--content">Image Processing</p>
           </div>
           <div className="skills--content--inside--box">
             <h2 className="skills--heading--title">Frontend Development</h2>
