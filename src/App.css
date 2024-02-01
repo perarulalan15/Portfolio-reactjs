@@ -17,33 +17,71 @@ button {
     cursor: pointer;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 85.333px;
+    box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .navbar--items > ul {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    text-decoration: none;
+  }
+  .navbar--items ul > li > a {
+    text-decoration: none;
+  }
+
+
+  .navbar--content {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
 .section--title {
     font-size: 50px;
     font-weight: 500;
     color: #434A9B;
-    margin: 150px 50px;
+    margin: 120px 50px;
 }
 
 .hero--section--title {
     font-size: 40px;
     font-weight: 500;
-    margin: -135px 50px 0;
+    margin: -125px 50px 0;
 }
-
 
 .hero--section-description {
     width: 600px;
     font-size: 30px;
     font-weight: 300;
     color: #EB2E24;
-    margin: 20px 50px;
+    margin: 10px 50px;
 }
 
 .hero--section--img {
     width: 500px;
     height: 300px;
     float: right;
-    margin: -500px 50px 0;
+    margin: -600px 50px 0;
 }
 
 
@@ -51,7 +89,7 @@ button {
 
 
 h1.project-section-title{
-    margin-top: 200px;
+    margin-top: 100px;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -112,32 +150,17 @@ h1.project-section-title{
     margin: 15px auto;
 }
 
+.project--section--links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -70px;
+}
+
 .project--section--links-1{
-    display: inline;
-    text-decoration: none;
-    width: 200px;
     background-color: #ffff;
-    font-size: 20px;
-    text-align: center;
-    margin: 35px auto;
-}
-
-.project--section--links-2{
     text-decoration: none;
-    width: 200px;
-    background-color: #ffff;
     font-size: 20px;
-    text-align: center;
-    margin: 30px auto;
-}
-
-.project--section--links-3{
-    text-decoration: none;
-    width: 200px;
-    background-color: #ffff;
-    font-size: 20px;
-    text-align: center;
-    margin: 10px auto;
 }
 
 svg{
@@ -166,13 +189,13 @@ h1.skills--heading {
     width: 300px;
     height: 50vh;
     justify-content: space-evenly;
-    background-color: #EEC968;
+    background-color: #ffffff;
     margin: 20px;
     border-radius: 30px;
 }
 
 .skills--heading--title{
-    background-color: #EEC968;
+    background-color: #ffffff;
     color: #CA1D00;
     text-align: center;
     margin-top: 15px;
@@ -181,7 +204,7 @@ h1.skills--heading {
 }
 
 .skills--description--content{
-    background-color: #EEC968;
+    background-color: #ffffff;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
@@ -235,7 +258,7 @@ textarea {
 .contact--section--img{
     width: 500px;
     float: right;
-    margin: -600px auto;
+    margin: -630px auto;
 }
 
 .contact--section--button{
@@ -243,10 +266,8 @@ textarea {
     margin-left: 130px;
 }
 
-
-
-
-
-.logo {
-    margin: 30px 50px;
+.logo-name {
+    font-size: 20px;
+    text-align: center;
 }
+
